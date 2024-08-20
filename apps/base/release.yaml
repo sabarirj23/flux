@@ -4,7 +4,7 @@ metadata:
   name: kong1
   namespace: kong1
 spec:
-  intrevel: 5m
+  interval: 5m
   chart:
     spec:
       chart: kong

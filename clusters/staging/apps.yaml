@@ -4,7 +4,7 @@ metadata:
   name: app
   namespace: flux-system
 spec:
-  intrevel: 10m0s
+  interval: 10m0s
   sourceRef:
     kind: GitRepositary
     name: flux-system
