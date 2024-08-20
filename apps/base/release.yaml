@@ -1,6 +1,6 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
-metadata: 
+metadata:
   name: kong1
   namespace: kong1
 spec:
@@ -13,9 +13,9 @@ spec:
         kind: HelmRepository
         name: kong1
         namespace: kong1
-      intreval: 1m
+      interval: 1m
   values:
     image:
       repository: kong/kong-gateway
       tag: "3.4.3.11"
-    replicationCount: 3
+    replicaCount: 3
