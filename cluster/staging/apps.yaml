@@ -7,5 +7,5 @@ spec:
   intrevel: 10m0s
   sourceRef:
     kind: GitRepositary
-    name: 
+    name: flux-system
   path: ./apps/overlays/staging
