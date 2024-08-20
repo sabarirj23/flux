@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.flux.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: kong1
+  namespace: kong1
+spec:
+  intrevel: 5m
+  url: https://charts.konghq.com
