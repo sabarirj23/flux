@@ -6,6 +6,7 @@ metadata:
 spec:
   interval: 10m0s
   sourceRef:
-    kind: GitRepositary
+    kind: GitRepository
     name: flux-system
   path: ./apps/overlays/staging
+  prune: true
