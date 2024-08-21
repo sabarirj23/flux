@@ -18,4 +18,4 @@ spec:
     image:
       repository: kong/kong-gateway
       tag: "3.4.3.11"
-    replicaCount: 3
+    replicaCount: 4
